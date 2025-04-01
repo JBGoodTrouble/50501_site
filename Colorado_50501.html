@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+	
+<!-- link to fonts logo font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+<!-- Header fonts = lemon milk-->
+<!-- link to body font -->
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	
+<meta charset="utf-8">
+<title>50501_Colorado</title>
+	  <link rel="stylesheet" href="50501.css">
+	<style>
+		nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #333;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav ul li:hover {
+  background-color: #444;
+}
+
+/* Hide dropdown by default */
+nav ul .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below parent menu item */
+  left: 0;
+  background-color: #555;
+}
+
+nav ul .dropdown li a {
+  padding: 8px 12px;
+}
+		nav ul li:hover .dropdown {
+  display: block;
+}
+</style>
+</head>
+
+<body>
+	
+	
+	<header>
+		     
+     	<div class="slideshow-container">
+        <!-- Slides -->
+			<div class="mySlides fade">
+      	 	<img src="Logos/Icons/BLM.png" alt="50501 BLM">
+    	  	</div>
+
+     		<div class="mySlides fade">
+        	<img src="Logos/Icons/Colorado flag .png" alt="50501 Colorado Flag">
+      		</div>
+
+      		<div class="mySlides fade">
+            <img src="Logos/Icons/ColoradoMTblue.PNG" alt="50501 Blue">
+     		 </div>
+ 
+			<div class="mySlides fade">
+     		<img src="Logos/Icons/ColoradoMTRed.PNG" alt="50501 Red">
+      		</div>	
+      
+			<div class="mySlides fade">
+            <img src="Logos/Icons/Disability logo .png" alt="50501 Disability">
+      		</div>	
+		
+			<div class="mySlides fade">
+         	<img src="Logos/Icons/National logo .png" alt="50501 National">
+     		</div>	
+		
+			<div class="mySlides fade">
+            <img src="Logos/Icons/pride.png" alt="50501 Pride">
+      		</div>	
+		
+			<div class="mySlides fade">
+          	<img src="Logos/Icons/Trans.png" alt="50501 Trans">
+      		</div>	
+	
+			<div class="mySlides fade">
+            <img src="Logos/Icons/Vets and the army.png" alt="50501 Vets">
+      		</div>	
+		      
+   		</div>
+
+<script>
+        let slideIndex = 0;
+
+        // Function to show the slides
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  // Hide all slides
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;  // Loop back to the first slide
+            }
+            slides[slideIndex - 1].style.display = "block";  // Show the current slide
+            setTimeout(showSlides, 2000);  // Change image every 2 seconds
+        }
+
+        // Function for navigation controls (previous and next)
+        function plusSlides(n) {
+            slideIndex += n;
+            let slides = document.getElementsByClassName("mySlides");
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            if (slideIndex < 1) { slideIndex = slides.length; }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  // Hide all slides
+            }
+            slides[slideIndex - 1].style.display = "block";  // Show the selected slide
+        }
+
+        // Initialize the slideshow
+        showSlides();
+			</script>
+			
+		<div> 
+			<!-- socal media links -->
+		  <div class="social_media_icons"> 
+				<a href="Logos/Social Media/BlueSky/50501 Social Media Icon_BlueSky (Rounded Square Color).png">
+					<img src="Logos/Social Media/BlueSky/50501 Social Media Icon_BlueSky (Rounded Square Color).png" alt="bluesky" style= "width: 30px; height: 30px; padding-right: 10px;" >
+					</a>
+		  </div>
+			
+			<div class="social_media_icons"> 
+				<a href="https://www.facebook.com/groups/999415635389182/permalink/1017632273567518/">
+				<img src="Logos/Social Media/Facebook/50501 Social Media Icon_Facebook (Color).png" alt="reddit" style="width: 30px; height: 30px;">
+					</a>
+			</div>
+			
+			<div class="social_media_icons"> 
+			 <a ref="https://www.instagram.com/50501.colorado/#">
+				<img src="Logos/Social Media/Instagram/50501 Social Media Icon_Instagram (Rounded Square Color).png" alt="reddit" style= "width: 30px; height: 30px;" >
+				 </a>
+			</div>
+			
+			<div class="social_media_icons"> 
+				<a ref="https://www.reddit.com/r/50501/?rdt=53293">
+			  <img src="Logos/Social Media/Reddit/50501 Social Media Icon_Reddit (Rounded Square BW).png" alt="reddit" style= "width: 30px; height: 30px;" >
+					</a> 
+			</div>
+			
+		  <div class="social_media_icons"> 
+			<img src="Logos/Social Media/YouTube/50501 Social Media Icon_YouTube (Rounded Square Color).png" alt="reddit"  style= "width: 30px; height: 30px;">
+		  </div>
+		<div style="text-align:center; padding-left:100px"> COLORADO 50501</div>
+		
+		
+
+			
+		</div>
+	
+
+	<div class="banner" style="text-align:center;">
+	REMOVE.REVERSE.RECLAIM.</div>
+	
+	</header>
+	
+	 <nav>
+        <a href="Colorado_50501.html">HOME</a>
+        <a href="Colorado_50501_About.html">ABOUT</a>
+        <a href="Colorado_50501_Events.html">EVENTS</a>
+        <a href="Colorado_50501_Contact_us.html">CONTACT</a>
+        <a href="Colorado_50501_Partners.html">PARTNERS</a>
+		<a href="Colorado_50501_Resources.html">RESOURCES</a>
+		<a href="Colorado_50501_Press.html">PRESS</a>
+    </nav>
+	 <div class ="Main_container_left">
+	 <img src="Images/Photos/50501_13MAR25_Protest (134).jpg" alt="protesters">
+	</div>
+
+
+	<footer> 
+		<div> 
+		 
+		  <p style="font-family: 'LEMON MILK', 'LEMON MILK Bold', 'LEMON MILK Medium', 'LEMON MILK Light'; font-size: 20px; font-style: italic; font-weight: 100; color:#274CC0;"> Nil Sine Numine - Nothing Without the Divine Will</p>
+        </div>
+		<p style="font-size: 15px; color: color: # #C8C8C8;">Colorado 50501 - © 2025</p>	
+    </footer>
+</body>
+
+</html>
